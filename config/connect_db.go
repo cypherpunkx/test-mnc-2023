@@ -31,10 +31,6 @@ func ConnectDB() {
 }
 
 func SyncDB() {
-	if err := DB.Migrator().DropTable(&models.Customer{}, &models.BankCard{}, &models.Transaction{}); err != nil {
-		panic(err)
-	}
-
 	if err := DB.AutoMigrate(&models.Customer{}, &models.BankCard{}, &models.Transaction{}); err != nil {
 		panic(err)
 	}
