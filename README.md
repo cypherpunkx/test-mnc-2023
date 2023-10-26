@@ -1,34 +1,33 @@
-# TEST MNC 2023
+### simple-digital-wallet ( TEST MNC 2023 )
 
-### Deskripsi
+## Deskripsi
 
 Ini adalah sebuah test yang diberikan oleh MNC
 
-# Dokumentasi Spesifikasi API
+## Dokumentasi Spesifikasi API
 
 Selamat datang dalam dokumentasi spesifikasi API proyek ini. Dokumen ini memberikan panduan tentang cara menggunakan dan mengakses API yang disediakan dalam proyek ini.
 
 ## Daftar Isi
 
-- [TEST MNC 2023](#test-mnc-2023)
-    - [Deskripsi](#deskripsi)
+- [Deskripsi](#deskripsi)
 - [Dokumentasi Spesifikasi API](#dokumentasi-spesifikasi-api)
-  - [Daftar Isi](#daftar-isi)
-  - [Deskripsi API](#deskripsi-api)
-  - [Endpoints API](#endpoints-api)
-  - [Penggunaan API](#penggunaan-api)
-  - [Instalasi](#instalasi)
-  - [Otentikasi](#otentikasi)
-  - [Contoh Permintaan (Request)](#contoh-permintaan-request)
-    - [Auth API](#auth-api)
-    - [POST Registration](#post-registration)
-    - [POST Login](#post-login)
-    - [POST Logout](#post-logout)
-    - [Transaction API](#transaction-api)
-    - [POST Transaction](#post-transaction)
-    - [GET Transaction History](#get-transaction-history)
-    - [Customer API](#customer-api)
-    - [GET Profile](#get-profile)
+- [Daftar Isi](#daftar-isi)
+- [Deskripsi API](#deskripsi-api)
+- [Endpoints API](#endpoints-api)
+- [Penggunaan API](#penggunaan-api)
+- [Instalasi](#instalasi)
+- [Otentikasi](#otentikasi)
+- [Contoh Permintaan (Request)](#contoh-permintaan-request)
+  - [Auth API](#auth-api)
+  - [POST Registration](#post-registration)
+  - [POST Login](#post-login)
+  - [POST Logout](#post-logout)
+  - [Transaction API](#transaction-api)
+  - [POST Transaction](#post-transaction)
+  - [GET Transaction History](#get-transaction-history)
+  - [Customer API](#customer-api)
+  - [GET Profile](#get-profile)
 
 ## Deskripsi API
 
@@ -130,7 +129,8 @@ Response :
 {
     "code":200,
     "status":"success",
-    "message":"Login Successful!"
+    "message":"Login Successful!",
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
 ```
 
@@ -138,7 +138,7 @@ Response :
 Request :
 
 - Method : POST
-- Endpoint : `/auth/login`
+- Endpoint : `/auth/logout`
 - Header :
   - Accept : application/json
   - Authorization: Bearer Token
@@ -153,7 +153,7 @@ Response :
     "code":200,
     "status":"success",
     "message":"Logged out Successful!"
-}
+}e
 ```
 
 ### Transaction API
