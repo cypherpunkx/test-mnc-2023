@@ -152,7 +152,7 @@ Response :
     "code":200,
     "status":"success",
     "message":"Logged out Successful!"
-}e
+}
 ```
 
 ### Transaction API
@@ -266,9 +266,7 @@ Response :
   "cardholderName": "John Doe",
   "expirationDate": "2024-09-30T00:00:00Z",
   "balance": 1000.0,
-  "cvv": "123"
-}
-  },
+  "cvv": "123",
   "lastLogin": "2023-09-20T15:30:00Z"
 }
 ```
