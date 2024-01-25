@@ -12,7 +12,6 @@ Selamat datang dalam dokumentasi spesifikasi API proyek ini. Dokumen ini memberi
 
 - [Deskripsi](#deskripsi)
 - [Dokumentasi Spesifikasi API](#dokumentasi-spesifikasi-api)
-- [Daftar Isi](#daftar-isi)
 - [Deskripsi API](#deskripsi-api)
 - [Endpoints API](#endpoints-api)
 - [Penggunaan API](#penggunaan-api)
